@@ -11,5 +11,8 @@
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
   }
 }
