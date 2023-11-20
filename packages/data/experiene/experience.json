@@ -1,0 +1,138 @@
+[
+  {
+    "id": 0,
+    "position": "Web Developer and Designer",
+    "at": "Freelance",
+    "form": {
+      "year": 2014,
+      "month": 2
+    },
+    "to": {
+      "year": 2017,
+      "month": 4
+    },
+    "description": ["Backed development", "Frontend development", "Web Design"],
+    "tech": ["JavaScript", "jQuery", "Drupal", "WordPress", "SQL"]
+  },
+  {
+    "id": 1,
+    "position": "Senior Frontend Developer",
+    "at": "Itekako",
+    "form": {
+      "year": 2017,
+      "month": 4
+    },
+    "to": {
+      "year": 2018,
+      "month": 2
+    },
+    "description": [
+      "Developed an HR application for tracking employee professional development.",
+      "Developed a PoC React Native app.",
+      "Was a go-to person in the company for troubleshooting and fixing performance issues od React apps.",
+      "Mentored junior React developers."
+    ],
+    "tech": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "React Native",
+      "Redux",
+      "Webpack",
+      "Jest",
+      "ESLint"
+    ]
+  },
+  {
+    "id": 2,
+    "position": "Senior Frontend Developer",
+    "at": "TradeCore",
+    "form": {
+      "year": 2018,
+      "month": 4
+    },
+    "to": {
+      "year": 2019,
+      "month": 6
+    },
+    "description": [
+      "Developed stock and crypto trading web apps.",
+      "Developed a set of internal libraries for fintech projects for forms, code splitting, fintech utils, CSP, UI kit, and various Redux middleware",
+      "Participated in the Trading Portal's Rest API design.",
+      "Introduced type checking, monorepos, and advanced project linting to the company.",
+      "Wrote a few codemods for refactoring at scale."
+    ],
+    "tech": [
+      "JavaScript",
+      "FlowType",
+      "React",
+      "Redux",
+      "WebSockets",
+      "Webpack",
+      "Jest",
+      "Storybook",
+      "Lerna",
+      "GitLab CI/CD",
+      "jscodeshift",
+      "Husky",
+      "Commitizen",
+      "ESLint",
+      "Prettier",
+      "Snyk"
+    ]
+  },
+  {
+    "id": 3,
+    "position": "Frontend Architect",
+    "at": "Hero Health",
+    "form": {
+      "year": 2019,
+      "month": 10
+    },
+    "to": {
+      "year": 2022,
+      "month": 4
+    },
+    "description": [
+      "Managed the Frontend monorepo with 4 apps and 12 shared modules.",
+      "Kept a team of 7 developers in sync.",
+      "Wrote technical design documents and development guidelines.",
+      "Enforced code quality through automation.",
+      "Kept the Frontend security standards at the highest possible level for a suite of apps dealing with sensitive personal health information of over 50k users.",
+      "Introduced type checking, testing, monorepos, and advanced project linting to the company.",
+      "Rewrote the app for managing the Hero pill dispenser from scratch.",
+      "Wrote a small single sign-on app, and a library for its use across all the projects",
+      "Enabled incremental migration of the Back Office and Store Front apps to the new stack.",
+      "Optimised the Store Front App's loading and bundling for performance.",
+      "Mentored junior developers."
+    ],
+    "tech": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Gatsby",
+      "React Hooks",
+      "Redux",
+      "Redux Saga",
+      "React Query",
+      "React Hook Form",
+      "Yup",
+      "WebSockets",
+      "Sentry",
+      "Stripe",
+      "Prismic",
+      "Webpack",
+      "Jest",
+      "React Testing Library",
+      "Storybook",
+      "Lerna",
+      "GitHub Actions",
+      "jscodeshift",
+      "Husky",
+      "Commitizen",
+      "ESLint",
+      "Prettier",
+      "Sonar"
+    ]
+  }
+]
