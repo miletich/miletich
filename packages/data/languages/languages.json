@@ -1,0 +1,10 @@
+{
+  "languages": [
+    { "name": "Serbian", "level": "fluent" },
+    { "name": "English", "level": "fluent" },
+    { "name": "Spanish", "level": "fluent" },
+    { "name": "Chinese", "level": "intermediate" },
+    { "name": "Russian", "level": "intermediate" },
+    { "name": "Polish", "level": "intermediate" }
+  ]
+}
