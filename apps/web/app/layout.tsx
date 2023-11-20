@@ -5,9 +5,9 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Miletić Dušan - Frontend Developer',
+  title: 'Dušan Miletić - Frontend Developer',
   description:
-    'Personal website of Miletić Dušan, Frontend Developer and Architect focusing on React Ecosystem.',
+    'Personal website of Dušan Miletić, Frontend Developer and Architect focusing on React Ecosystem.',
 };
 
 export default function RootLayout({
