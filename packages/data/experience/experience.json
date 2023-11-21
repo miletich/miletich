@@ -3,7 +3,7 @@
     "id": 0,
     "position": "Web Developer and Designer",
     "at": "Freelance",
-    "form": {
+    "from": {
       "year": 2014,
       "month": 2
     },
@@ -18,7 +18,7 @@
     "id": 1,
     "position": "Senior Frontend Developer",
     "at": "Itekako",
-    "form": {
+    "from": {
       "year": 2017,
       "month": 4
     },
@@ -47,7 +47,7 @@
     "id": 2,
     "position": "Senior Frontend Developer",
     "at": "TradeCore",
-    "form": {
+    "from": {
       "year": 2018,
       "month": 4
     },

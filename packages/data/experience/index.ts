@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import experienceJson from './experience.json';
 
 export const datePointSchema = z.object({
   year: z.coerce.number(),
@@ -22,3 +23,5 @@ export const positionSchema = z
 export type Position = z.infer<typeof positionSchema>;
 
 export const experienceSchema = z.array(positionSchema);
+
+export const experience = experienceSchema.parse(experienceJson);
