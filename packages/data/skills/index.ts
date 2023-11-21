@@ -1,7 +1,7 @@
 import { z } from 'zod';
+import skillsJson from './skills.json';
 
-export const skillGroupSchema = z.record(z.array(z.string()));
+export const skillsSchema = z.record(z.array(z.string()));
+export type Skills = z.infer<typeof skillsSchema>;
 
-export type SkillGroup = z.infer<typeof skillGroupSchema>;
-
-export const skillsSchema = z.array(skillGroupSchema);
+export const skills = skillsSchema.parse(skillsJson);

@@ -1,23 +1,20 @@
 {
   "fundamentals": [
     "Data structures",
-    "algorithms",
+    "Algorithms",
     "FP (strong preference)",
     "OOP",
-    "TDD",
     "REST",
     "Web Sockets",
     "FE security",
-    "unit & end-to-end testing",
+    "Unit & End-To-End Testing",
     "Git",
-    "monorepos",
+    "Monorepos",
     "CI/CD",
-    "Bash",
-    "Vim",
-    "codemods",
-    "progressive web apps",
-    "design theory",
-    "data visualisation",
+    "Codemods",
+    "Progressive web apps",
+    "Design Theory",
+    "Data Visualisation",
     "Scrum/Agile",
     "i18n"
   ],
@@ -47,7 +44,6 @@
   ],
   "tools": [
     "Turborepo",
-    "Turbopack",
     "Vite",
     "Webpack",
     "Parcel",
@@ -60,6 +56,8 @@
     "Playwright",
     "Husky",
     "GitHub Actions",
-    "GitLab CI"
+    "GitLab CI",
+    "Bash",
+    "Vim"
   ]
 }
