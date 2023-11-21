@@ -11,8 +11,9 @@ import Period from '../components/Period';
 export default function Experience(): JSX.Element {
   return (
     <Article id="experience">
-      <H2>Experience</H2>
+      <H2 className="border-b border-zinc-500 pb-2">Experience</H2>
       {experience
+        .concat()
         .reverse()
         .map(({ id, position, at, from, to, description, tech }) => (
           <Section key={id}>

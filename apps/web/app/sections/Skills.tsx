@@ -7,11 +7,9 @@ import H3 from '../components/H3';
 import P from '../components/P';
 
 export default function Skills(): JSX.Element {
-  console.log(languages);
-
   return (
     <Article id="skills">
-      <H2>Skills</H2>
+      <H2 className="border-b border-zinc-500 pb-2">Skills</H2>
       {Object.entries(skills).map(([key, value]) => (
         <Section key={key}>
           <H3>{key.replace(/\b\w/g, (s) => s.toUpperCase())}</H3>
