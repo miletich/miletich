@@ -1,4 +1,5 @@
 import Logo from 'assets/Logo';
+import Experience from './sections/Experience';
 
 export default function Page(): JSX.Element {
   return (
@@ -10,12 +11,7 @@ export default function Page(): JSX.Element {
         <p>...intro</p>
       </header>
       <main>
-        <article>
-          <h2>Experience</h2>
-          <section>
-            <h3>Hero Health</h3>
-          </section>
-        </article>
+        <Experience />
 
         <article>
           <h2>Skills</h2>
