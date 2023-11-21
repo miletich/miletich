@@ -7,7 +7,7 @@ export default forwardRef<HTMLHeadingElement, Props>(function H2(
   ref
 ) {
   return (
-    <h2 ref={ref} className={`text-xl ${className}`} {...rest}>
+    <h2 ref={ref} className={`text-xl mb-6 ${className}`} {...rest}>
       {children}
     </h2>
   );

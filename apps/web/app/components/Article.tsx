@@ -7,7 +7,7 @@ export default forwardRef<HTMLElement, Props>(function Article(
   ref
 ) {
   return (
-    <article ref={ref} className={`${className}`} {...rest}>
+    <article ref={ref} className={`mb-8 ${className}`} {...rest}>
       {children}
     </article>
   );

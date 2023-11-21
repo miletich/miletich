@@ -7,7 +7,7 @@ export default forwardRef<HTMLUListElement, Props>(function PositionDescription(
   ref
 ) {
   return (
-    <ul ref={ref} className={` ${className}`} {...rest}>
+    <ul ref={ref} className={`mb-2 list-disc ${className}`} {...rest}>
       {children}
     </ul>
   );
