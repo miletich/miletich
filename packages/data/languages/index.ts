@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import languagesJson from './languages.json';
 
 export const languageLevelSchema = z.union([
   z.literal('fluent'),
@@ -16,3 +17,5 @@ export const languageSchema = z.object({
 export type Language = z.infer<typeof languageSchema>;
 
 export const languagesSchema = z.array(languageSchema);
+
+export const languages = languagesSchema.parse(languagesJson);

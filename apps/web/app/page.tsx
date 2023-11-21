@@ -1,5 +1,6 @@
 import Logo from 'common/Logo';
 import Experience from './sections/Experience';
+import Skills from './sections/Skills';
 
 export default function Page(): JSX.Element {
   return (
@@ -12,13 +13,7 @@ export default function Page(): JSX.Element {
       </header>
       <main>
         <Experience />
-
-        <article>
-          <h2>Skills</h2>
-          <section>
-            <h3>Hero Health</h3>
-          </section>
-        </article>
+        <Skills />
       </main>
     </>
   );
