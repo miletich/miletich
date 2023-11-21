@@ -1,5 +1,5 @@
 import type { Position } from 'data/experience';
-import { formatDate } from 'common/utils/formatDate';
+import { formatDate } from 'common/utils/format-date';
 import P from './P';
 
 type Props = Pick<Position, 'from' | 'to'>;
