@@ -32,6 +32,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    'unicorn/filename-case': 'off',
   },
   ignorePatterns: ['node_modules/', 'dist/'],
 };

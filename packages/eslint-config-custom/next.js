@@ -38,6 +38,8 @@ module.exports = {
   // add rules configurations here
   rules: {
     'import/no-default-export': 'off',
+    'react/jsx-sort-props': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    'unicorn/filename-case': 'off',
   },
 };
