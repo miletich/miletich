@@ -1,4 +1,4 @@
-import Logo from 'assets/Logo';
+import Logo from 'common/Logo';
 import Experience from './sections/Experience';
 
 export default function Page(): JSX.Element {

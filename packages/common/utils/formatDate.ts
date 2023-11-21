@@ -1,5 +1,5 @@
 import type { DatePoint } from 'data/experience';
-import { locale } from '../consts';
+import { locale } from '../../../apps/web/app/consts';
 
 const options = {
   year: 'numeric',

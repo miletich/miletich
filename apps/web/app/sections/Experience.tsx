@@ -8,7 +8,7 @@ import Li from '../components/Li';
 import P from '../components/P';
 import Period from '../components/Period';
 
-export default function Experience() {
+export default function Experience(): JSX.Element {
   return (
     <Article id="experience">
       <H2>Experience</H2>
