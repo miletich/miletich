@@ -23,7 +23,7 @@ export default function Experience(): JSX.Element {
                 <Li key={el}>{el}</Li>
               ))}
             </PositionDescription>
-            <P>{tech.join(' · ')}</P>
+            <P className="text-zinc-600">{tech.join(' · ')}</P>
           </Section>
         ))}
     </Article>

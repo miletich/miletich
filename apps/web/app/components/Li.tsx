@@ -7,7 +7,7 @@ export default forwardRef<HTMLLIElement, Props>(function Li(
   ref
 ) {
   return (
-    <li ref={ref} className={`text-base mb-1 ${className}`} {...rest}>
+    <li ref={ref} className={`text-base mb-2 ${className}`} {...rest}>
       {children}
     </li>
   );
