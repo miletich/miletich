@@ -30,5 +30,8 @@ module.exports = {
       },
     },
   },
+  rules: {
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+  },
   ignorePatterns: ['node_modules/', 'dist/'],
 };
