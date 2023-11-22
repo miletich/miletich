@@ -3,8 +3,8 @@ import { StyleSheet } from '@react-pdf/renderer';
 export const styles = StyleSheet.create({
   page: {
     flexDirection: 'row',
-    margin: 20,
-    gap: 20,
+    margin: 30,
+    gap: 21,
     fontSize: 12,
   },
   left: {
@@ -15,8 +15,13 @@ export const styles = StyleSheet.create({
   },
   h2: {
     fontSize: 16,
+    marginBottom: 8,
   },
   h3: {
     fontSize: 14,
+    marginBottom: 6,
+  },
+  section: {
+    marginBottom: 16,
   },
 });
