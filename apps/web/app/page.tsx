@@ -7,11 +7,13 @@ export default function Page(): JSX.Element {
   return (
     <>
       <Header />
-      <main>
-        <Experience />
-        <Skills />
-      </main>
-      <Footer />
+      <div>
+        <main>
+          <Experience />
+          <Skills />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

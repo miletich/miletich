@@ -15,8 +15,8 @@ const iconSize = 26;
 export default function Header(): JSX.Element {
   return (
     <header>
-      <div className="flex mt-16 mb-9">
-        <Logo className="fill-zinc-100 max-w-[6rem] mr-3" />
+      <div className="flex mb-9">
+        <Logo className="fill-zinc-100 w-24 h-10 mr-3" />
         <div>
           <H1 className="leading-5">Dušan Miletić</H1>
           <H2 className="[&&]:mb-0 [&&]:text-zinc-400 leading-5">
