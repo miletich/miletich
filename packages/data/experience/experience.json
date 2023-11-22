@@ -95,16 +95,15 @@
     },
     "description": [
       "Managed the Frontend monorepo with 4 apps and 12 shared modules.",
-      "Kept a team of 7 developers in sync.",
       "Wrote technical design documents and development guidelines.",
       "Enforced code quality through automation.",
-      "Kept the Frontend security standards at the highest possible level for a suite of apps dealing with sensitive personal health information of over 50k users.",
-      "Introduced type checking, testing, monorepos, and advanced project linting to the company.",
+      "Kept a team of 7 developers in sync and mentored juniors.",
+      "Implemented the highest Frontend security standards for a suite of apps dealing with sensitive personal health information of over 50k users.",
+      "Introduced type checking, testing, monorepos, and advanced project linting.",
       "Rewrote the app for managing the Hero pill dispenser from scratch.",
       "Wrote a small single sign-on app, and a library for its use across all the projects",
-      "Enabled incremental migration of the Back Office and Store Front apps to the new stack.",
-      "Optimised the Store Front App's loading and bundling for performance.",
-      "Mentored junior developers."
+      "Enabled incremental migration of other apps to the new stack.",
+      "Optimised the Store Front App's loading and bundling for performance."
     ],
     "tech": [
       "JavaScript",
