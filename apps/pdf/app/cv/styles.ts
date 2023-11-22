@@ -5,11 +5,18 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     margin: 20,
     gap: 20,
+    fontSize: 12,
   },
   left: {
-    flexGrow: 1,
+    width: '30%',
   },
   right: {
-    flexGrow: 2,
+    width: '60%',
+  },
+  h2: {
+    fontSize: 16,
+  },
+  h3: {
+    fontSize: 14,
   },
 });

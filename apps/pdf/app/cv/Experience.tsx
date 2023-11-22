@@ -1,18 +1,20 @@
 import { Text, View } from '@react-pdf/renderer';
 import { experience } from 'data/experience';
 import { formatDate } from 'common/utils/format-date';
+import H3 from './components/H3';
+import H2 from './components/H2';
 
 export default function Experience(): JSX.Element {
   return (
     <>
-      <Text>Experience</Text>
+      <H2>Experience</H2>
       {experience
         .concat()
         .reverse()
         .map(({ id, position, at, from, to, description, tech }) => (
           <View key={id}>
             <Text>{`${formatDate(from)} ${formatDate(to)}`}</Text>
-            <Text>{`${position} · ${at}`}</Text>
+            <H3>{`${position} · ${at}`}</H3>
             <View>
               {description.map((el) => (
                 <Text key={el}>{el}</Text>
