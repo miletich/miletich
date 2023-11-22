@@ -6,7 +6,7 @@ type Props = Pick<Position, 'from' | 'to'>;
 
 export default function Period({ from, to }: Props): JSX.Element {
   return (
-    <P className="text-sm text-zinc-500 uppercase">{`${formatDate(
+    <P className="text-sm text-zinc-500 uppercase sm:!text-zinc-400">{`${formatDate(
       from
     )} - ${formatDate(to)}`}</P>
   );

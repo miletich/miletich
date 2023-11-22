@@ -8,9 +8,11 @@ import Li from '../components/Li';
 import P from '../components/P';
 import Period from '../components/Period';
 
-export default function Experience(): JSX.Element {
+type Props = { className?: string };
+
+export default function Experience({ className }: Props): JSX.Element {
   return (
-    <Article id="experience">
+    <Article id="experience" className={className}>
       <H2 className="border-b border-zinc-500 pb-2">Experience</H2>
       {experience
         .concat()
@@ -24,7 +26,9 @@ export default function Experience(): JSX.Element {
                 <Li key={el}>{el}</Li>
               ))}
             </PositionDescription>
-            <P className="text-zinc-600">{tech.join(' · ')}</P>
+            <P className="text-zinc-600 xl:!text-zinc-700">
+              {tech.join(' · ')}
+            </P>
           </Section>
         ))}
     </Article>

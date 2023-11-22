@@ -9,7 +9,7 @@ export default forwardRef<HTMLHeadingElement, Props>(function H3(
   return (
     <h3
       ref={ref}
-      className={`text-lg mb-2 text-zinc-50 ${className}`}
+      className={`text-lg mb-2 text-zinc-50 sm:font-bold ${className}`}
       {...rest}
     >
       {children}

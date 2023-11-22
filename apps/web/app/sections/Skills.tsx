@@ -6,9 +6,11 @@ import Section from '../components/Section';
 import H3 from '../components/H3';
 import P from '../components/P';
 
-export default function Skills(): JSX.Element {
+type Props = { className?: string };
+
+export default function Skills({ className }: Props): JSX.Element {
   return (
-    <Article id="skills">
+    <Article id="skills" className={className}>
       <H2 className="border-b border-zinc-500 pb-2">Skills</H2>
       {Object.entries(skills).map(([key, value]) => (
         <Section key={key}>

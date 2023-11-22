@@ -7,7 +7,11 @@ export default forwardRef<HTMLParagraphElement, Props>(function P(
   ref
 ) {
   return (
-    <p ref={ref} className={`text-base ${className}`} {...rest}>
+    <p
+      ref={ref}
+      className={`text-base xl:text-zinc-500 ${className}`}
+      {...rest}
+    >
       {children}
     </p>
   );

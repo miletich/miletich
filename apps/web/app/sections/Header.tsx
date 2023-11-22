@@ -12,9 +12,11 @@ import A from '../components/A';
 
 const iconSize = 26;
 
-export default function Header(): JSX.Element {
+type Props = { className?: string };
+
+export default function Header({ className }: Props): JSX.Element {
   return (
-    <header className="xl:sticky xl:top-0 xl:flex xl:flex-col xl:h-screen xl:pt-20 xl:text-right">
+    <header className={className}>
       <div
         className="flex mb-9
         xl:flex-col"
