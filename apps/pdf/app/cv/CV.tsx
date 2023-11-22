@@ -1,7 +1,8 @@
-import { Page, Text, View, Document } from '@react-pdf/renderer';
+import { Page, View, Document } from '@react-pdf/renderer';
 import { styles } from './styles';
 import Experience from './Experience';
 import Skills from './Skills';
+import Info from './Info';
 
 // Create Document Component
 export default function CV(): JSX.Element {
@@ -9,6 +10,7 @@ export default function CV(): JSX.Element {
     <Document>
       <Page size="A4" style={styles.page}>
         <View style={styles.left}>
+          <Info />
           <Skills />
         </View>
         <View style={styles.right}>
