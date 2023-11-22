@@ -8,10 +8,10 @@ export const styles = StyleSheet.create({
     fontSize: 12,
   },
   left: {
-    width: '30%',
+    width: '25%',
   },
   right: {
-    width: '60%',
+    width: '57%',
   },
   h2: {
     fontSize: 16,
@@ -20,6 +20,13 @@ export const styles = StyleSheet.create({
   h3: {
     fontSize: 14,
     marginBottom: 6,
+  },
+  li: {
+    fontSize: 12,
+    marginBottom: 4,
+  },
+  small: {
+    fontSize: 10,
   },
   section: {
     marginBottom: 16,

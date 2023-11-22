@@ -3,7 +3,9 @@ import { experience } from 'data/experience';
 import { formatDate } from 'common/utils/format-date';
 import H3 from './components/H3';
 import H2 from './components/H2';
+import Li from './components/Li';
 import Section from './Section';
+import Small from './components/Small';
 
 export default function Experience(): JSX.Element {
   return (
@@ -18,10 +20,10 @@ export default function Experience(): JSX.Element {
             <H3>{`${position} · ${at}`}</H3>
             <View>
               {description.map((el) => (
-                <Text key={el}>{el}</Text>
+                <Li key={el}>{el}</Li>
               ))}
             </View>
-            <Text>{tech.join(' · ')}</Text>
+            <Small>{tech.join(' · ')}</Small>
           </Section>
         ))}
     </>
