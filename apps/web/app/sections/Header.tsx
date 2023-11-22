@@ -14,12 +14,21 @@ const iconSize = 26;
 
 export default function Header(): JSX.Element {
   return (
-    <header>
-      <div className="flex mb-9">
-        <Logo className="fill-zinc-100 w-24 h-10 mr-3" />
+    <header className="xl:sticky xl:top-0 xl:flex xl:flex-col xl:h-screen xl:pt-20 xl:text-right">
+      <div
+        className="flex mb-9
+        xl:flex-col"
+      >
+        <Logo
+          className="fill-zinc-100 w-24 h-10 mr-3
+          xl:ml-auto xl:w-48 xl:h-20 xl:-mr-4 xl:mt-24 xl:mb-4"
+        />
         <div>
-          <H1 className="leading-5">Dušan Miletić</H1>
-          <H2 className="[&&]:mb-0 [&&]:text-zinc-400 leading-5">
+          <H1 className="leading-5 xl:mb-4">Dušan Miletić</H1>
+          <H2
+            className="[&&]:mb-0 [&&]:text-zinc-400 leading-5
+            xl:mb-2"
+          >
             Frontend Developer
           </H2>
         </div>
@@ -29,7 +38,10 @@ export default function Header(): JSX.Element {
           I build complex data visualizations in D3, and secure, reliable, and
           performant React apps in TypeScript since 2017.
         </P>
-        <div className="flex gap-4 mt-6 mb-2">
+        <div
+          className="flex gap-4 mt-6 mb-2
+          xl:float-right"
+        >
           <A href="mailto:d@miletich.cc" title="email">
             <EnvelopeClosedIcon width={iconSize} height={iconSize} />
           </A>

@@ -7,7 +7,7 @@ export default function Page(): JSX.Element {
   return (
     <>
       <Header />
-      <div>
+      <div className="xl:mt-20">
         <main>
           <Experience />
           <Skills />

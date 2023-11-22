@@ -18,7 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-zinc-950 text-zinc-400`}>
-        <div className="mx-6 mt-16 md:max-w-2xl md:mx-auto md:mt-24 lg:max-w-3xl lg:mt-28 ">
+        <div
+          className="mx-6 mt-16
+          md:max-w-2xl md:mx-auto md:mt-24
+          lg:max-w-3xl lg:mt-28 
+          xl:flex xl:justify-between xl:gap-12 xl:max-w-5xl xl:mt-0"
+        >
           {children}
         </div>
       </body>
