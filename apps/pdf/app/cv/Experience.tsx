@@ -2,7 +2,6 @@ import { Text, View } from '@react-pdf/renderer';
 import { experience } from 'data/experience';
 import { formatDate } from 'common/utils/format-date';
 import H3 from './components/H3';
-import H2 from './components/H2';
 import P from './components/P';
 import Section from './Section';
 import Small from './components/Small';

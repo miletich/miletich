@@ -70,7 +70,7 @@ export const infoStyles = StyleSheet.create({
     marginBottom: 38,
   },
   logo: {
-    marginTop: 20,
+    marginTop: 18,
     marginRight: -9,
     marginBottom: 10,
     marginLeft: 'auto',
@@ -83,7 +83,7 @@ export const infoStyles = StyleSheet.create({
   },
   title: {
     fontSize: 14,
-    marginBottom: 20,
+    marginBottom: 12,
     color: accentColor,
   },
 });
