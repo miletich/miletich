@@ -14,6 +14,9 @@ Font.register({
   src: './fonts/inter-tight/InterTight-Regular.ttf/',
 });
 
+export const baseColor = '#71717a';
+export const accentColor = '#09090b';
+
 export const styles = StyleSheet.create({
   page: {
     flexDirection: 'row',
@@ -23,6 +26,7 @@ export const styles = StyleSheet.create({
     gap: 18,
     fontSize: 12,
     fontFamily: 'Inter',
+    color: baseColor,
   },
   left: {
     width: '27%',
@@ -34,11 +38,13 @@ export const styles = StyleSheet.create({
   h2: {
     fontSize: 16,
     marginBottom: 8,
+    color: accentColor,
   },
   h3: {
     fontSize: 14,
     marginBottom: 6,
     fontWeight: 600,
+    color: accentColor,
   },
   p: {
     fontSize: 12,
@@ -52,6 +58,7 @@ export const styles = StyleSheet.create({
   date: {
     fontSize: 10,
     textTransform: 'uppercase',
+    color: accentColor,
   },
   section: {
     marginBottom: 16,
@@ -72,9 +79,11 @@ export const infoStyles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 600,
     marginBottom: 4,
+    color: accentColor,
   },
   title: {
     fontSize: 14,
     marginBottom: 20,
+    color: accentColor,
   },
 });
