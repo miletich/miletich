@@ -7,7 +7,7 @@ import Info from './Info';
 // Create Document Component
 export default function CV(): JSX.Element {
   return (
-    <Document>
+    <Document title="miletic-dusan-cv" author="Miletić Dušan">
       <Page size="A4" style={styles.page}>
         <View style={styles.left}>
           <Info />

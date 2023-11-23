@@ -1,7 +1,7 @@
 import { View } from '@react-pdf/renderer';
 import { skills } from 'data/skills';
 import { languages } from 'data/languages';
-import H3 from './components/H3';
+import Heading from './components/Heading';
 import Section from './Section';
 import P from './components/P';
 
@@ -10,12 +10,12 @@ export default function Skills(): JSX.Element {
     <View>
       {Object.entries(skills).map(([key, value]) => (
         <Section key={key}>
-          <H3>{key.replace(/\b\w/g, (s) => s.toUpperCase())}</H3>
+          <Heading>{key.replace(/\b\w/g, (s) => s.toUpperCase())}</Heading>
           <P>{value.join(', ')}</P>
         </Section>
       ))}
       <Section>
-        <H3>Spoken Languages</H3>
+        <Heading>Spoken Languages</Heading>
         <P>{`${languages
           .filter((language) => language.level === 'fluent')
           .map((language) => language.name)

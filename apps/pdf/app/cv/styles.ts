@@ -6,7 +6,6 @@ Font.register({
   fonts: [
     { src: './fonts/inter/Inter-Regular.ttf/' },
     { src: './fonts/inter/Inter-SemiBold.ttf/', fontWeight: 600 },
-    { src: './fonts/inter/Inter-Bold.ttf/', fontWeight: 700 },
   ],
 });
 Font.register({
@@ -34,11 +33,6 @@ export const styles = StyleSheet.create({
   },
   right: {
     width: '60%',
-  },
-  h2: {
-    fontSize: 16,
-    marginBottom: 8,
-    color: accentColor,
   },
   h3: {
     fontSize: 14,
