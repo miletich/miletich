@@ -19,11 +19,13 @@ export default function Header({ className }: Props): JSX.Element {
     <header className={className}>
       <div
         className="flex mb-9
-        xl:flex-col"
+        xl:flex-col
+        2xl:mb-12"
       >
         <Logo
           className="fill-zinc-100 w-24 h-10 mr-3
-          xl:ml-auto xl:w-48 xl:h-20 xl:-mr-4 xl:mt-24 xl:mb-4"
+          xl:ml-auto xl:w-48 xl:h-20 xl:-mr-4 xl:mt-24 xl:mb-4
+          2xl:mt-36"
         />
         <div>
           <H1 className="leading-5 xl:mb-4">Dušan Miletić</H1>
@@ -42,7 +44,8 @@ export default function Header({ className }: Props): JSX.Element {
         </P>
         <div
           className="flex gap-4 mt-6 mb-2
-          xl:float-right"
+          xl:float-right
+          2xl:mt-12"
         >
           <A href="mailto:d@miletich.cc" title="email">
             <EnvelopeClosedIcon width={iconSize} height={iconSize} />
