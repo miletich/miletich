@@ -28,7 +28,7 @@ export default function Header({ className }: Props): JSX.Element {
           2xl:mt-36"
         />
         <div>
-          <H1 className="leading-5 xl:mb-4">Dušan Miletić</H1>
+          <H1 className="leading-5 xl:mb-4">Miletić Dušan </H1>
           <H2
             className="[&&]:mb-0 [&&]:text-zinc-400 leading-5
             xl:mb-2"

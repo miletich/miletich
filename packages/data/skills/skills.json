@@ -32,7 +32,7 @@
     "D3.js",
     "Node.js",
     "Prisma",
-    "trpc",
+    "tRPC",
     "React Query",
     "Redux",
     "Tailwind",
