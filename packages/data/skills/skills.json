@@ -34,7 +34,7 @@
     "Prisma",
     "tRPC",
     "React Query",
-    "Redux",
+    "Redux Toolkit",
     "Tailwind",
     "shadcn/ui",
     "Radix UI",

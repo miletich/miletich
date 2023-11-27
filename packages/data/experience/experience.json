@@ -38,6 +38,7 @@
       "React",
       "React Native",
       "Redux",
+      "Reselect",
       "Webpack",
       "Jest",
       "ESLint"
